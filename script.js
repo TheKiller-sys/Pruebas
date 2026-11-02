@@ -4,6 +4,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const todoList = document.getElementById('todo-list');
     const taskCount = document.getElementById('task-count');
     const filterBtns = document.querySelectorAll('.filter-btn');
+    const clearCompletedBtn = document.getElementById('clear-completed-btn');
 
     let todos = JSON.parse(localStorage.getItem('todos')) || [];
     let currentFilter = 'all';
