@@ -1,0 +1,11 @@
+:root {
+  --color-danger-subtle: #FEE2E2;
+  --color-danger-text: #B91C1C;
+  --color-danger-border: #FCA5A5;
+  --color-danger-hover: #FECACA;
+  --primary-color: #3B82F6;
+  --bg-color: #FFFFFF;
+  --text-color: #111827;
+  --font-main: 'Inter', system-ui, sans-serif;
+  --border-radius: 6px;
+}
